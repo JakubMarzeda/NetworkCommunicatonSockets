@@ -73,3 +73,4 @@ def generate_request(mode=None, function=None, lower_limit=None, upper_limit=Non
     return request
 
 # print(generate_request(mode="calculate", function="x**3", lower_limit="12", upper_limit="100"))
+# CALCULATE/r/nFUNC: x**3/r/nLOW: 12/r/nUPP: 100
