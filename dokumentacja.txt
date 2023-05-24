@@ -1,0 +1,8 @@
+Klient wita się z serwerem który wyczykuje na dane od klienta.
+Serwer wysyła powitanie protokołem SEND.
+Klient odpowiada powitaniem protokołem SEND.
+Po połączeniu klient wysyła do serwera funckje przedział od do protokołem CALCULATE.
+Serwer otrzymuje request i oblicza całkę oraz rysuje całkę.
+Serwer wysyła wynik całki protokołem SEND.
+Serwer wysyła zdjęcie całki zamienione na bajty protokołem SEND_IMAGE.
+Klient odbiera wynik oraz zdjęcie, wynik wyświetla wyświetla a zdjęcie wykresu całki zapisuje w katalogu bieżącym.
